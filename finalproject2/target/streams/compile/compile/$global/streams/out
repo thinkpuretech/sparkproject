@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/home/edureka_398472/finalproject/src/main/scala/finalproject.scala:11:32: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m      val result = session.sql("SELECT CAST(phone_number AS VARCHAR(20)) FROM [0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/home/edureka_398472/finalproject/src/main/scala/finalproject.scala:12:106: unclosed character literal[0m
+[0m[[0m[31merror[0m] [0m[0m                                ( SELECT phone_number,COUNT(*) dropcount FROM calldrops WHERE error_code='0x860F16' GROUP BY phone_number ORDER BY dropcount DESC LIMIT 10)")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/home/edureka_398472/finalproject/src/main/scala/finalproject.scala:12:115: unclosed character literal[0m
+[0m[[0m[31merror[0m] [0m[0m                                ( SELECT phone_number,COUNT(*) dropcount FROM calldrops WHERE error_code='0x860F16' GROUP BY phone_number ORDER BY dropcount DESC LIMIT 10)")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/home/edureka_398472/finalproject/src/main/scala/finalproject.scala:12:172: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m                                ( SELECT phone_number,COUNT(*) dropcount FROM calldrops WHERE error_code='0x860F16' GROUP BY phone_number ORDER BY dropcount DESC LIMIT 10)")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/home/edureka_398472/finalproject/src/main/scala/finalproject.scala:15:4: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m   }[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
